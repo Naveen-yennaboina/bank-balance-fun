@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Check Your Bank Balance</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background: #eef2ff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      flex-direction: column;
+    }
+
+    .container {
+      background: white;
+      padding: 2rem 3rem;
+      border-radius: 20px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      max-width: 400px;
+    }
+
+    h1 {
+      color: #2d5fff;
+    }
+
+    .btn {
+      margin-top: 1.5rem;
+      background-color: #2d5fff;
+      color: white;
+      padding: 0.75rem 2rem;
+      font-size: 1.1rem;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .note {
+      margin-top: 1rem;
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    .small-links {
+      margin-top: 2rem;
+      font-size: 0.85rem;
+    }
+
+    .small-links a {
+      color: #2d5fff;
+      margin: 0 0.5rem;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Check Your Bank Balance 💸</h1>
+    <p>Pay ₹1 to reveal your balance instantly.</p>
+    <a class="btn" href="https://razorpay.me/@naveen7685?amount=100&currency=INR">Pay ₹1</a>
+    <p class="note">Redirects to your balance page after payment (manually).</p>
+    <div class="small-links">
+      <a href="form.html">Submit Yours</a> |
+      <a href="leaderboard.html">Leaderboard</a>
+    </div>
+  </div>
+</body>
+</html>

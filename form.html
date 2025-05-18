@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Submit Your Balance</title>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    form {
+      margin: 2rem auto;
+      background: #f1f5ff;
+      padding: 2rem;
+      border-radius: 1rem;
+      max-width: 400px;
+    }
+
+    input {
+      width: 100%;
+      padding: 0.75rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 0.5rem;
+    }
+
+    button {
+      background: #2d5fff;
+      color: white;
+      padding: 0.75rem 2rem;
+      border: none;
+      border-radius: 0.5rem;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    a {
+      display: block;
+      margin-top: 1.5rem;
+      color: #2d5fff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>📥 Submit Your Fake Balance</h1>
+  <form action="https://formspree.io/f/mnqezynz" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="text" name="balance" placeholder="Your Balance (e.g., ₹123456789.00)" required />
+    <button type="submit">Submit</button>
+  </form>
+  <a href="leaderboard.html">← View Leaderboard</a>
+</body>
+</html>
